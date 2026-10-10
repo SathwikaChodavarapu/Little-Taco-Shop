@@ -1,0 +1,95 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333333;
+    margin: 15px;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #8b4513;
+}
+
+/* Navigation */
+nav {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+nav a {
+    color: #8b4513;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    color: #d2691e;
+}
+
+/* Images */
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Main sections */
+article, main section, aside {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+/* Menu table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f5f5f5;
+    color: #8b4513;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* Contact form: no extra borders added */
+input, textarea {
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+/* Buttons */
+button {
+    padding: 8px 15px;
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a0522d;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: #666666;
+    padding: 10px;
+}
