@@ -87,9 +87,33 @@ button:hover {
     background-color: #a0522d;
 }
 
-/* Footer */
 footer {
     text-align: center;
     color: #666666;
     padding: 10px;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+caption {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+thead {
+    background-color: lightgray;
+}
+
+tfoot {
+    font-weight: bold;
 }
